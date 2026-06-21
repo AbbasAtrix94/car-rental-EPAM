@@ -1,0 +1,83 @@
+[
+  {
+    "ContainingType": "CarRental.Api.Endpoints.CarEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCarEndpoints\u003Eb__0_1",
+    "RelativePath": "cars/book",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.Api.Models.BookingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CarRental.Api.Endpoints.CarEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCarEndpoints\u003Eb__0_2",
+    "RelativePath": "cars/booking/{reference}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reference",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CarRental.Api.Endpoints.CarEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCarEndpoints\u003Eb__0_0",
+    "RelativePath": "cars/search",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pickup",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "from",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
